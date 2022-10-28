@@ -1,0 +1,49 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+@font-face {
+    font-family: 'Mov';
+    src: url('C:\Users\João Pedro\Desktop\Projeto em Angular\Estudo\src\assets\Fonts\Mov.ttf');
+    src: local('Mov'), local('Mov'), url('C:\Users\João Pedro\Desktop\Projeto em Angular\Estudo\src\assets\Fonts\Mov.ttf');
+}
+
+span {
+    margin: 1rem;
+    font-family: Mov;
+    font-size: 3rem;
+}
+
+.menu {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: Mov;
+}
+
+.menu {
+    background-color: darkslategray;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.menu:hover {
+    background-color: #e7e7e7;
+}
+
+.mat-toolbar {
+    background-color: darkslategray;
+}
+
+.MenuButton{
+    font-family: Mov;
+}

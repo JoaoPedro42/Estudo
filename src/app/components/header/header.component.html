@@ -1,0 +1,30 @@
+<p>
+  <mat-toolbar color="primary">
+    <button class="menu" type="button" [matMenuTriggerFor]="settingsMenu">Categorias</button>
+
+    <mat-menu class="MenuButton" #settingsMenu>
+      <menu mat-menu-item>SALA</menu>
+      <menu mat-menu-item>COZINHA</menu>
+      <menu mat-menu-item>DORMITORIO</menu>
+      <menu mat-menu-item>BANHEIRO</menu>
+    </mat-menu>
+
+    <span>King Moveis! A melhor opção para sua casa!</span>
+
+    <span class="example-spacer"></span>
+
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+
+  </mat-toolbar>
+
+</p>
+
+
+  <img [src]="sala.jpg" width="50%" height="50% />
+ 
